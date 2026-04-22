@@ -1,5 +1,25 @@
-# Vue 3 + Vite
+# Diseño de Planos y Modelos 3D
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Página web para servicios de diseño de planos arquitectónicos y modelos tridimensionales.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Tecnologías
+
+- Vue.js 3
+- Vite
+
+## Instalación
+
+1. Clona el repositorio
+2. Instala dependencias: `npm install`
+3. Ejecuta el servidor de desarrollo: `npm run dev`
+4. Construye para producción: `npm run build`
+
+## Despliegue
+
+Para alojar gratuitamente en GitHub Pages:
+
+1. Crea un repositorio en GitHub
+2. Sube el código: `git remote add origin <url>` `git push -u origin master`
+3. Habilita GitHub Pages en la configuración del repositorio, seleccionando la rama master y carpeta root.
+
+Nota: Para despliegue automático, instala gh-pages: `npm install --save-dev gh-pages` y añade script "deploy": "npm run build && gh-pages -d dist" en package.json, luego `npm run deploy`
